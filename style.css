@@ -177,3 +177,11 @@ a {
     font-size: 17px;
     font-weight: 300;
   }
+
+  .footer {
+    background-color: #1f2937;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    padding: 40px;
+  }
