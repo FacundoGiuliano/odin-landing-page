@@ -81,7 +81,6 @@ a {
     font-size: 18px;
     padding: 8px 32px;
     margin-top: 12px;
-    
     font-weight: bold;
 }
 
@@ -145,4 +144,36 @@ a {
     font-size: 24px;
     font-weight: 500;
     margin-right: 40px;
+  }
+
+  .action {
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin: 100px 200px;
+    padding: 40px 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .button-2 {
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    background: #3882f6;
+    font-size: 18px;
+    padding: 8px 32px;
+    margin-top: 12px;
+    font-weight: bold;
+  }
+
+  .action-p1 {
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  .action-p2 {
+    font-size: 17px;
+    font-weight: 300;
   }
