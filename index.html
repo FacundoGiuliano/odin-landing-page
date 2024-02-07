@@ -5,72 +5,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Landing Page</title>
 </head>
 
 <body>
-    <div class="hero">
-        <div class="header">
-            <ul>
-                <li id="header-logo">Header Logo</li>
-                <li><a href="#">header link one</a></li>
-                <li><a href="#">header link two</a></li>
-                <li><a href="#">header link three</a></li>
-            </ul>
-        </div>
-        <div class="text">
-            <div class="main">
-                <p class="text-main">This website is awesome</p>
-                <div class="secondary">
-                    <p class="text-secondary">This website has some subtext that goes here under the main title. It's a
-                        smaller
-                        font and the color is lower contrast</p>
-                </div>
+
+    <header>
+        <ul class="nav">
+            <li id="header-logo"><a id="header-logo" href="#">Header Logo</a></li>
+            <li><a href="#">header link one</a></li>
+            <li><a href="#">header link two</a></li>
+            <li><a href="#">header link three</a></li>
+        </ul>
+        <div class="welcome">
+            <div class="left">
+                <h1 class="hero">This website is awesome</h1>
+                <p class="secondary">This website has some subtext that goes here under the main title. It's a
+                    smaller
+                    font and the color is lower contrast</p>
                 <button class="button-1">Sign up</button>
             </div>
-            <div class="img">
-                <p>this is a placeholder for an image</p>
+            <div class="right">
+                <div class="placeholder">
+                    <p class="secondary">this is a placeholder for an image</p>
+                </div>
             </div>
         </div>
-    </div>
+    </header>
+
     <div class="information">
-        <p class="information-p">Some random information.</p>
+        <h2>Some random information.</h2>
         <div class="container">
-            <div class="image-1">
-                <div class="image"></div>
-                <p class="descript">this is some subtext under an illustration or image</p>
+            <div class="card">
+                <div class="square"></div>
+                <p>this is some subtext under an illustration or image</p>
             </div>
-            <div class="image-1">
-                <div class="image"></div>
-                <p class="descript">this is some subtext under an illustration or image</p>
+            <div class="card">
+                <div class="square"></div>
+                <p>this is some subtext under an illustration or image</p>
             </div>
-            <div class="image-1">
-                <div class="image"></div>
-                <p class="descript">this is some subtext under an illustration or image</p>
+            <div class="card">
+                <div class="square"></div>
+                <p>this is some subtext under an illustration or image</p>
             </div>
-            <div class="image-1">
-                <div class="image"></div>
-                <p class="descript">this is some subtext under an illustration or image</p>
+            <div class="card">
+                <div class="square"></div>
+                <p>this is some subtext under an illustration or image</p>
             </div>
         </div>
     </div>
+
     <div class="quote">
-        <p class="quote-p">This is an inspiring quote, or a testimonial from a customer.
+        <em>This is an inspiring quote, or a testimonial from a customer.
             Maybe it's just filling up space, or maybe people will actually read it.
-            Who knows? All I know is that it looks nice.
-        </p>
-        <p class="quote-p2">-Thor, God of Thunder</p>
+            Who knows? All I know is that it looks nice.</em>
+        <p>-Thor, God of Thunder</p>
     </div>
+
     <div class="action">
-        <div class="action-p">
-            <p class="action-p1">Call to action! it's time!</p>
-            <p class="action-p2">Sign up for our product by clicking that button right over there!</p>
+        <div class="left">
+            <strong>Call to action! it's time!</strong>
+            <p class="secondary">Sign up for our product by clicking that button right over there!</p>
         </div>
-        <button class="button-2">Sign up</button>
+        <div class="right">
+            <button>Sign up</button>
+        </div>
     </div>
-    <div class="footer">
-        <p class="footer-p">Copyright &copy The Odin Project 2024</p>
-    </div>
+
+    <footer>
+        Copyright &copy The Odin Project 2024
+    </footer>
 </body>
 
 </html>
